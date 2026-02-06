@@ -28,6 +28,11 @@ body {
   display: flex;
   gap: 40px;
 }
+.main-section{
+  max-width: 1440px;
+  margin: 0 auto; 
+
+}
 
 .main-nav {
   margin-left: 72px;
@@ -246,7 +251,9 @@ h3 {
   background-color: #ffffff;
   text-align: center;
   padding-bottom: 32px;
-  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+              0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+              0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-card p {
@@ -316,7 +323,9 @@ h3 {
 }
 
 .ports:hover{
-  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+              0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+              0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 
